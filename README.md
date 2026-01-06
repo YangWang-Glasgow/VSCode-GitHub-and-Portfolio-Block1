@@ -179,13 +179,35 @@ If a version number appears, Conda is installed correctly.
 ### Step 3: Create a Conda Environment
 
 ```bash
-conda create -n course-env python=3.11
+conda create -n course-env python=3.13.1
 conda activate course-env
 ```
 
 You should see `(course-env)` in the terminal prompt.
 
+Note that, if you cannot active course-env, try to switch to 'Command Prompt' by 
+- press Ctrl + Shift + P
+- Select the terminal profile, type:
+```
+Terminal: Select Default Profile
+```
+- From the list, select:
+```
+Command Prompt
+```
+- Open a new terminal by
+Terminal → New Terminal 0r or press Ctrl + `
+You should now see a prompt like: C:\Users\... (not PS C:\...) 
+- Activate Conda
+```
+conda activate course-env
+```
+You should see: (course-env) C:\Users\...
+
+
 ---
+
+
 
 ### Step 4: Select the Interpreter in VS Code
 
@@ -193,7 +215,7 @@ You should see `(course-env)` in the terminal prompt.
 2. Select **Python: Select Interpreter**  
 3. Choose:
    ```
-   conda | course-env | Python 3.11
+   conda | course-env | Python 3.13.1
    ```
 
 ---
