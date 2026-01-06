@@ -2,135 +2,236 @@
 
 ## Overview
 
-This first part of block 1 will introduce the tools and evironemnt that are goign to be used throughout this course. 
+This first part of Block 1 introduces the tools and working environment that will be used throughout the course.
 
-## Learning objectives
+---
 
-__Basic objectives__: The following objectives are fundamental to this course. You need to follow the exercise to master the tools.
+## Learning Objectives
 
-+ Set up VSCode, Git/GitHub, Python programming environment
-+ Get familiar with procedures to access course meterials and upload your work to GitHub
+### Basic Objectives
 
-__Advanced objectives__: The following objectives are part of the asseseemnt that is to create profiel on GitHub and keep it updated for future exercies. This will help you to create a portfolio. 
+The following objectives are fundamental to the course. You are expected to complete the exercises to develop core technical proficiency.
 
-+ Create GitHub profile Readme.md page in VSCode
-+ Create Portfolio 1 for Block 1 exercices
+- Set up VS Code, Git/GitHub, and the Python programming environment  
+- Become familiar with procedures for accessing course materials and uploading your work to GitHub  
 
-## Learning resources 
+### Advanced Objectives
 
-You will need to download and install: 
+The following objectives contribute to the assessment, which involves creating and maintaining a GitHub profile. This will help you build a portfolio for future coursework and professional use.
 
-+ [Visual Studio code](https://code.visualstudio.com/Download)
+- Create a GitHub profile `README.md` page using VS Code  
+- Create Portfolio 1 for the Block 1 exercises  
 
-    1. [Explore its functions](https://code.visualstudio.com/docs) 
-    2. [Follow the detailed instructions for Python support](https://code.visualstudio.com/docs/python/python-quick-start) 
-    3. [Explore build-in or extensions for AI ](https://code.visualstudio.com/docs/intelligentapps/overview)
+---
 
-    Recommended extensions: (please search their functions)
-    - Python
-    - Jupyter
-    - GitHub Copilot
-    - Markdown Shortcuts
-    - Code Spell Checker
+## Learning Resources
 
+You will need to download and install the following software.
 
-+ Python
-    - [Anaconda](https://www.anaconda.com/download) 
-    - or [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install) 
+### Visual Studio Code
 
-+ [Git](https://git-scm.com/install/)
+- Download: https://code.visualstudio.com/Download
 
+Recommended activities:
+1. Explore core functions: https://code.visualstudio.com/docs  
+2. Follow Python setup instructions: https://code.visualstudio.com/docs/python/python-quick-start  
+3. Explore built-in and AI extensions: https://code.visualstudio.com/docs/intelligentapps/overview  
 
-__Video__: You can watch the following videos at the ([Geographic Software Design](https://www.youtube.com/watch?v=fr1Fz-XViIE&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq) in [Open Geospatial Solutions](https://www.youtube.com/@giswqs)). 
+Recommended extensions:
+- Python  
+- Jupyter  
+- GitHub Copilot  
+- Markdown Shortcuts  
+- Code Spell Checker  
 
-[+ Installing Visual Studio Code, Git, and Miniconda ](https://www.youtube.com/watch?v=9zmXL2ppves&list=PLAxJ4-o7ZoPcD-6wZ2xY5bXuu48Scu8kq&index=2)
+### Python
 
-## Exercises
+Choose one distribution:
+- Anaconda: https://www.anaconda.com/download  
+- Miniconda: https://www.anaconda.com/docs/getting-started/miniconda/install  
 
-The following exercises are to be done _during_ and _following_ your reading and viewing of the resources. We cover basic functions in this course. There are plenty of resources online to help you learn more. 
+### Git
 
-### Create Github profile page in README.md
+- Download and install Git: https://git-scm.com/install  
 
-1. create it on Github online:
+### Video Resources (Optional)
 
-You create a public repository. The repository name should be exactly your GitHub username, Make sure the repository contains a README.md file. That README.md becomes the landing page of your GitHub profile.
+- Geographic Software Design playlist:  
+  https://www.youtube.com/@giswqs  
 
-Steps: 
-- Log in to GitHub
+- Installing Visual Studio Code, Git, and Miniconda:  
+  https://www.youtube.com/watch?v=9zmXL2ppves  
 
-- Click New repository
+---
 
-- Set:
+# Exercises 1
 
-    - Repository name → your exact username (e.g. YangWang-Glasgow)
+The following exercises should be completed during and after your engagement with the learning resources.
 
-    - Public ✅
+---
 
-    - Initialize with README ✅
+## Create a GitHub Profile Page (`README.md`)
 
-    - Click Create repository
+### Step 1: Create the Repository on GitHub
 
-2. Clone the Repository
+Create a public repository that will act as your GitHub profile page.
 
-Visual Studio Code integrates directly with GitHub.
+Steps:
+1. Log in to GitHub  
+2. Click **New repository**  
+3. Set:
+   - Repository name: your exact GitHub username (e.g. `YangWang-Glasgow`)  
+   - Public: enabled  
+   - Initialize with README: enabled  
+4. Click **Create repository**  
 
-Steps: 
+---
 
-*Option A*: VS Code GUI
+### Step 2: Clone the Repository
 
-- Open VS Code
+#### Option A: VS Code (GUI)
 
-- Press Ctrl + Shift + P (or Cmd + Shift + P on macOS)
+1. Open VS Code  
+2. Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS)  
+3. Select **Git: Clone**  
+4. Paste:
+   ```
+   https://github.com/your-username/your-username.git
+   ```
+5. Choose a local folder and click **Open**  
 
-- Select Git: Clone
+#### Option B: Terminal
 
-- Paste your repository URL: https://github.com/your-username/your-username.git
-
-
-- Choose a local folder
-
-- Click Open
-
-*Option B: Terminal (press Ctrl + Shift + ')
-cd your folder
+```bash
+cd your-folder
 git clone https://github.com/your-username/your-username.git
+```
 
+---
 
-3. Edit README.md in VS Code
+### Step 3: Edit `README.md`
 
-Open README.md and write in Markdown.
+1. Open `README.md` in VS Code  
+2. Write content using Markdown  
 
-There are many templates that you can use, such as 
+Template resources:
+- https://github.com/abhisheknaiidu/awesome-github-profile-readme  
+- https://github.com/coderjojo/creative-profile-readme  
 
-- https://github.com/abhisheknaiidu/awesome-github-profile-readme?tab=readme-ov-file#articles
+Markdown references:
+- https://www.markdownguide.org/cheat-sheet  
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
 
-- https://github.com/coderjojo/creative-profile-readme?tab=readme-ov-file#p
+Markdown preview in VS Code:
+- `Ctrl + Shift + V`  
+- `Ctrl + K` then `V`  
 
-You can modify them by revisiting Markdown basics:
+---
 
-- https://www.markdownguide.org/cheat-sheet/#extended-syntax
+### Step 4: Commit and Push Changes
 
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+1. Open the **Source Control** panel  
+2. Stage changes (`+`)  
+3. Write a commit message (e.g. `update README.md`)  
+4. Click **Commit**  
+5. Click **Push** or **Sync**  
+6. Check your GitHub profile page for updates  
 
-You can preview markdown in VS Code: Ctrl + Shift + V or Ctrl + K then v
+---
 
-4. Commit and Push Changes to remote repository in VS Code
+## Submission Instructions
 
-Steps: 
-- Go to Source Control panel
+- Post your GitHub profile link on the Moodle forum  
+- The repository must be public  
+- Submissions are visible to all students  
 
-- Stage changes (+)
+---
 
-- Write a commit message, e.g. 'update README.md'
+# Exercises 2
 
-- Click Commit
+## Setting Up a Python Environment in VS Code (Using Conda)
 
-- Click Push or Sync
+This exercise explains how to set up a Python environment in VS Code using Anaconda or Miniconda.
 
-- Go to your GItHub main page to see your updated profile
+---
 
+### Step 1: Install the Python Extension
 
-## Submission instructions
+1. Open VS Code  
+2. Go to Extensions (`Ctrl + Shift + X`)  
+3. Search for **Python** (Microsoft)  
+4. Click **Install**  
 
-- Send me your GitHub page link through Moodle forum 
-- It is public to all other students
+---
+
+### Step 2: Check Conda Installation
+
+Open the VS Code terminal and run:
+
+```bash
+conda --version
+```
+
+If a version number appears, Conda is installed correctly.
+
+---
+
+### Step 3: Create a Conda Environment
+
+```bash
+conda create -n course-env python=3.11
+conda activate course-env
+```
+
+You should see `(course-env)` in the terminal prompt.
+
+---
+
+### Step 4: Select the Interpreter in VS Code
+
+1. Press `Ctrl + Shift + P`  
+2. Select **Python: Select Interpreter**  
+3. Choose:
+   ```
+   conda | course-env | Python 3.11
+   ```
+
+---
+
+### Step 5: Install Required Packages
+
+```bash
+conda install numpy pandas matplotlib
+```
+
+Always activate the environment before installing packages.
+
+---
+
+### Step 6: Test the Environment
+
+Create `test.py`:
+
+```python
+import numpy as np
+import pandas as pd
+
+print(np.__version__)
+print(pd.__version__)
+```
+
+Run:
+
+```bash
+python test.py
+```
+
+---
+
+### Step 7: Use Jupyter Notebooks
+
+```bash
+conda install jupyter
+```
+
+Open a `.ipynb` file and select **course-env** as the kernel.
